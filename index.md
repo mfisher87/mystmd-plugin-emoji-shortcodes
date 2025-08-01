@@ -36,6 +36,17 @@ And so on:
 :mag: in a card!
 :::
 
+```
+:::{hint}
+
+:mag: in a callout!
+:::
+```
+
+:::{hint}
+
+:mag: in a callout!
+:::
 
 ## Roles
 

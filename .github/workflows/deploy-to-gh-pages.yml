@@ -11,6 +11,8 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  BASE_URL: "/${{ github.event.repository.name }}"
 
 jobs:
   build:

@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Matt Fisher <mfisher87@gmail.com>"]
+channels = ["conda-forge"]
+name = "mystmd-emoji-shortcodes"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+preview = "myst start"
+render = "myst build --html"
+generate-emoji-mapping = "node generate-github-emoji-mapping.js"
+"generate-emoji-mapping:debug" = "node inspect generate-github-emoji-mapping.js"
+
+[dependencies]
+mystmd = ">=1.6.0,<2"
+nodejs = ">=24.4.1,<24.5"

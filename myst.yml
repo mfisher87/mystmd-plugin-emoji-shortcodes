@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "MySTMD emoji shortcode transformer plugin demo"
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: "index.md"
+  plugins:
+    - "./emoji-shortcodes.mjs"
+site:
+  template: book-theme
+  options:
+    hide_footer_links: true

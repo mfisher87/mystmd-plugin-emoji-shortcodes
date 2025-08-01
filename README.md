@@ -13,7 +13,7 @@ in your `myst.yml`:
 project:
   # ...
   plugins:
-    - "..."
+    - "https://raw.githubusercontent.com/mfisher87/mystmd-plugin-emoji-shortcodes/refs/heads/main/emoji-shortcodes.mjs"
 # ...
 ```
 
